@@ -9,10 +9,9 @@ const Home = () => {
         <div>
             <h2>Exercise</h2>
            {exercises.length > 0 ? (
-            exercises.map(([id, { name, time }]) => (
+            exercises.map(([id, { name }]) => (
                 <div key={id}>
                     <p>Exercise: {name}</p>
-                    <p>Time: {time}</p>
                 </div>
             ))
            ) : (
