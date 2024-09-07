@@ -6,8 +6,10 @@ function NavigationBar() {
 
     return(
         <Navbar className="navbar" expand="lg">
-            <Navbar.Brand as={Link} to="/home">Home</Navbar.Brand> <br />
-            <Navbar.Brand as={Link} to="/exercise">Exercise</Navbar.Brand> <br />
+            <Navbar.Brand as={Link} to="/">Home</Navbar.Brand> <br />
+            <Navbar.Brand as={Link} to="/add-exercise">Add Exercise</Navbar.Brand> <br />
+            <Navbar.Brand as={Link} to="/view-exercise">View Exercise</Navbar.Brand> <br />
+            <Navbar.Brand as={Link} to="/delete-exercise">Delete Exercise</Navbar.Brand> <br />
         </Navbar>
     );
 }
